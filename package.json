@@ -1,0 +1,14 @@
+{
+  "name": "gulp-sns",
+  "version": "0.0.1",
+  "description": "Component to handle comunication with AWS SNS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Clovis Chedid",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "aws-sdk": "^2.393.0"
+  }
+}
