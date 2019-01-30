@@ -66,7 +66,7 @@ class SNSClient {
         Name: topicName,
         Attributes: {
           DisplayName: displayName,
-          Policy: policy
+          Policy: JSON.stringify(policy)
         }
       }
 
